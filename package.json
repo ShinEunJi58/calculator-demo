@@ -1,0 +1,39 @@
+{
+  "name": "calculator-demo",
+  "version": "0.1.0",
+  "description": "Modern scientific calculator web app with TDD and SOLID principles",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest --coverage",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint src/**/*.js --fix",
+    "format": "prettier --write \"src/**/*.{js,css,html}\""
+  },
+  "keywords": [
+    "calculator",
+    "scientific-calculator",
+    "web-app",
+    "vite",
+    "tailwindcss",
+    "tdd",
+    "solid-principles"
+  ],
+  "author": "ShinEunJi58",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShinEunJi58/calculator-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ShinEunJi58/calculator-demo/issues"
+  },
+  "homepage": "https://shineun ji58.github.io/calculator-demo/",
+  "devDependencies": {},
+  "dependencies": {}
+}
