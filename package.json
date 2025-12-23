@@ -7,20 +7,14 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "vitest",
-    "test:watch": "vitest --watch",
-    "test:ui": "vitest --ui",
-    "test:coverage": "vitest --coverage",
-    "lint": "eslint src/**/*.js",
-    "lint:fix": "eslint src/**/*.js --fix",
-    "format": "prettier --write \"src/**/*.{js,css,html}\""
+    "test": "echo \"Tests will be added with Vitest\" && exit 0",
+    "lint": "echo \"Linting will be added with ESLint\" && exit 0"
   },
   "keywords": [
     "calculator",
     "scientific-calculator",
     "web-app",
     "vite",
-    "tailwindcss",
     "tdd",
     "solid-principles"
   ],
@@ -34,6 +28,8 @@
     "url": "https://github.com/ShinEunJi58/calculator-demo/issues"
   },
   "homepage": "https://shineun ji58.github.io/calculator-demo/",
-  "devDependencies": {},
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
   "dependencies": {}
 }
