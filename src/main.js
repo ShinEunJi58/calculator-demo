@@ -1,3 +1,5 @@
+import './styles/index.css';
+
 // Main entry point
 console.log('Calculator app initializing...');
 
